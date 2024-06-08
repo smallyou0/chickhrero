@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>병아리 히어로</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-white">
+    <header class="header">
+      <div class="align triple">
+        <h1 class="h1"><a class="logo" href="#none"></a></h1>
+        <a href="home.html"><img src="images/logo_text.svg" alt="로고"></a>
+        <div class="header__alarm">
+          <a class="btn-alarm" href="#none" onclick="alert('준비중입니다')"></a>
+        </div>
+      </div>
+    </header>
+    <main class="main pb150">
+        <section class="content">
+            <img class="banner" src="images/banner.svg" alt="">
+        <div class="vehicle-management pt26">
+          <div class="select">행사 정보</div>
+        </div>
+        <ul class="align gap12 scroll-x">
+          <li class="card-main mt12 px16 py18 h152 p0 scroll-none pointer" onclick="location.href='eventinfo.html'">
+              <img class="card-img" src="images/@img_poster01.svg" alt="">
+              <div class="card-title">아동학대 예방의 날 기념식</div>
+              <div class="card-age">정부 부처</div>
+          </li>
+          <li class="card-main mt12 px16 py18 h152 p0 scroll-none pointer" onclick="location.href='eventinfo.html'">
+              <a href="eventinfo.html"><img class="card-img" src="images/@img_poster03.svg" alt=""></a>
+              <div class="card-title">아동학대예방 시민참여 공모전</div>
+              <div class="card-age">서울특별시</div>
+          </li>
+          <li class="card-main mt12 px16 py18 mh152 p0 scroll-none pointer" onclick="location.href='eventinfo.html'">
+              <img class="card-img" src="images/@img_poster02.svg" alt="">
+              <div class="card-title">아동학대 예방 캠페인</div>
+              <div class="card-age">서울시 동작구</div>
+          </li>
+        <li class="card-main mt12 px16 py18 h152 p0 scroll-none pointer" onclick="location.href='eventinfo.html'">
+              <img class="card-img" src="images/@img_poster01.svg" alt="">
+              <div class="card-title">아동학대 예방의 날 기념식</div>
+              <div class="card-age">정부 부처</div>
+          </li>
+        </ul>
+        <div class="title-main align vm mt40">
+          <h3 class="h3">아동학대 예방 자가점검</h3>
+        </div>
+        <div class="title-main align vm pt8">
+          <h2 class="h2">
+            훈육의 범위<br>
+            객관적으로 판단하세요
+          </h2>
+        </div>
+        <a class="btn-ticket-buy mt12 align vm" href="checklist.html">
+          <strong class="ico1">아동학대 자가점검</strong>
+        </a>
+      </section>
+      <div class="nav-foot">
+      <!-- <button class="btn-select" type="button" onclick="location.href='car-control.html'"></button> -->
+        <div class="notification">
+          <p class="strong">공지</p>
+          <p>24년 상반기 전문가 교육 신청 안내</p>
+        </div>
+        <nav class="nav-foot__cont">
+          <ul>
+            <li class="ico-home active"><a href="home.html">홈</a></li>
+            <li class="ico-main"><a href="education.html">예방 교육</a></li>
+            <li class="ico-study"><a onclick="alert('준비중입니다')">학술 자료</a></li>
+            <li class="ico-chat"><a onclick="alert('준비중입니다')">강의 신청</a></li>
+            </ul>
+        </nav>
+      </div>
+    
+    </main>
+  </body>
+  <script src="js/button.js"></script>
+  <script src="js/navFoot.js"></script>
+</html>

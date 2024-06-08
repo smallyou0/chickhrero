@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>병아리 히어로</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-white">
+    <header class="header-sub block">
+      <div class="align triple">
+        <div></div>
+        <h2>아동학대 자가점검</h2>
+        <button class="checklist-close" type="button" onclick="location.href='home.html'">
+          <img src="images/ico_close.svg" alt="">
+        </button>
+      </div>
+    </header>
+    <main class="main pb150">
+      <section class="content">
+        <div class="card-main shadow vehicle-management px16 py16 mt32">
+          <div class="select border-bottom pb12">학부모 인식 자가진단</div>
+          <div class="align gap5 chck-wrap mt20 pb10">
+            <input type="checkbox" id="chk1">
+            <label for="chk1">회초리로 때린 적이 있다.</label>
+          </div>
+          <div class="align gap5 chck-wrap pb10">
+            <input type="checkbox" id="chk2">
+            <label for="chk2">대화 도중 큰소리로 화를 내었다.</label>
+          </div>
+          <div class="align gap5 chck-wrap pb10">
+            <input type="checkbox" id="chk3">
+            <label for="chk3">옷차림을 제한했다.</label>
+          </div>
+          <div class="align gap5 chck-wrap pb10">
+            <input type="checkbox" id="chk4">
+            <label for="chk4">친구들을 못 만나게 했다.</label>
+          </div>
+          <div class="align gap5 chck-wrap pb10">
+            <input type="checkbox" id="chk5">
+            <label for="chk5">문을 쾅 닫고 방을 나갔다.</label>
+          </div>
+          <div class="align gap5 chck-wrap pb10">
+            <input type="checkbox" id="chk6">
+            <label for="chk6">주위의 물건을 던지거나 부쉈다.</label>
+          </div>
+          <div class="align gap5 chck-wrap pb10">
+            <input type="checkbox" id="chk7">
+            <label for="chk7">때리지는 않았지만 위협한 적이 있다.</label>
+          </div>
+          <div class="align gap5 chck-wrap pb10">
+            <input type="checkbox" id="chk8">
+            <label for="chk8">일정을 통제하고 간섭했다.</label>
+          </div>
+          <div class="align gap5 chck-wrap">
+            <input type="checkbox" id="chk9">
+            <label for="chk9">음식을 억지로 먹인 적이 있다.</label>
+          </div>
+        </div>
+        <a class="btn-ticket-buy mt24 align vm" href="#none" onclick="alert('준비중입니다')">
+            <strong>결과 보기</strong>
+        </a>
+      </section>
+    </main>
+  </body>
+  <script src="js/button.js"></script>
+  <script src="js/navFoot.js"></script>
+</html>
