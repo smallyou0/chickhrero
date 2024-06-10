@@ -703,7 +703,7 @@ legend,
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  padding: .9rem 1.8rem;
+  padding: 4rem 1.8rem .9rem 1.8rem;
   background: var(--white);
   display: flex;
   justify-content: space-between;
